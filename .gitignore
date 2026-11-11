@@ -1,0 +1,34 @@
+# ===== Secrets =====
+.env
+.env.*
+!.env.example
+
+# ===== Foundry (contracts/) =====
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+contracts/lib/
+
+# ===== Python =====
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ===== Streamlit =====
+.streamlit/secrets.toml
+
+# ===== Uploaded receipts / local test data =====
+uploads/
+*.log
+
+# ===== Editors & OS =====
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
